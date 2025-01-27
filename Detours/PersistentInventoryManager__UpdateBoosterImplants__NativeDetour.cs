@@ -5,7 +5,7 @@ using Il2CppInterop.Runtime.Runtime;
 
 namespace Hikaria.BoosterTweaker.Detours;
 
-internal unsafe class PersistentInventoryManager__UpdateBoosterImplants__NativeDetour : EasyDetourBase<PersistentInventoryManager__UpdateBoosterImplants__NativeDetour.UpdateBoosterImplantsDel>, IEasyDetour
+internal unsafe class PersistentInventoryManager__UpdateBoosterImplants__NativeDetour : EasyDetourBase<PersistentInventoryManager__UpdateBoosterImplants__NativeDetour.UpdateBoosterImplantsDel>
 {
     public delegate void UpdateBoosterImplantsDel(IntPtr instancePtr, IntPtr playerData, Il2CppMethodInfo* methodInfo);
 
