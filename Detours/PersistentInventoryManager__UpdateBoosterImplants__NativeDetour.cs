@@ -1,11 +1,11 @@
 ﻿using DropServer.BoosterImplants;
 using Hikaria.BoosterTweaker.Managers;
-using Hikaria.Core.Utilities;
+using Hikaria.Core.Utility;
 using Il2CppInterop.Runtime.Runtime;
 
 namespace Hikaria.BoosterTweaker.Detours;
 
-internal unsafe class PersistentInventoryManager__UpdateBoosterImplants__NativeDetour : EasyDetourBase<PersistentInventoryManager__UpdateBoosterImplants__NativeDetour.UpdateBoosterImplantsDel>
+internal unsafe class PersistentInventoryManager__UpdateBoosterImplants__NativeDetour : EasyDetourBase<PersistentInventoryManager__UpdateBoosterImplants__NativeDetour.UpdateBoosterImplantsDel>, IEasyDetour
 {
     public delegate void UpdateBoosterImplantsDel(IntPtr instancePtr, IntPtr playerData, Il2CppMethodInfo* methodInfo);
 

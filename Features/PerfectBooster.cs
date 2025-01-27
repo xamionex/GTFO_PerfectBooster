@@ -4,7 +4,7 @@ using Clonesoft.Json;
 using DropServer.BoosterImplants;
 using GameData;
 using Hikaria.BoosterTweaker.Managers;
-using Hikaria.Core.Utilities;
+using Hikaria.Core.Utility;
 using Il2CppInterop.Runtime.Runtime;
 using TheArchive.Core.Attributes;
 using TheArchive.Core.Attributes.Feature;

@@ -1,5 +1,5 @@
 ﻿using Hikaria.BoosterTweaker.Detours;
-using Hikaria.Core.Utilities;
+using Hikaria.Core.Utility;
 using TheArchive.Core;
 using TheArchive.Core.Attributes;
 using TheArchive.Core.Localization;
